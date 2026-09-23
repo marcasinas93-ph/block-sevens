@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Block Seven's burgers, built on Windsor Street and served in Block Seven.">
+
+    <title>Block Seven's Diner PH</title>
+    <link rel="icon" type="image/png" href="/css/images/B7_squared.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?">
+
+    <!-- Custom CSS -->
+    <!-- <link rel="stylesheet" href="/css/stylesheets/hero.css"> -->
+    <link rel="stylesheet" href="/css/stylesheets/menu.css">
+    <link rel="stylesheet" href="/css/stylesheets/navbar.css">
+    <link rel="stylesheet" href="/css/stylesheets/footer.css">
+</head>
+
+<body class="menu-page">
+
+    <!-- Navbar component -->
+    <div id="navbar-container"></div>
+
+    <!-- <main>
+
+        <section class="menu-section vh-100">
+            <div class="container-fluid h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-lg-7">
+                        <div class="menu-content">
+                            MENU!
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="menu-content">
+                            MENU!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main> -->
+
+    <main class="menu-page-content">
+
+        <section class="menu-categories py-5">
+
+            <div class="container">
+
+                <div class="text-center mb-5">
+
+                    <div class="menu-heading-wrapper">
+                        <p class="menu-eyebrow">
+                            FROM WINDSOR STREET
+                        </p>
+
+                        <h1 class="menu-page-title">
+                            PICK YOUR FAVORITE
+                        </h1>
+
+                        <p class="menu-page-description">
+                            Choose a category to explore the Block Seven's menu.
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="row g-4">
+
+                    <!-- THE STACKS -->
+
+                    <div class="col-12 col-md-6 col-lg-4">
+
+                        <button type="button" class="menu-category-card active" data-menu-target="stacks-menu"
+                            aria-controls="stacks-menu" aria-expanded="true">
+
+                            <span class="menu-category-image"><img src="./css/images/the_stacks.jpg" class="img-fluid"></span>
+                            <span class="menu-category-overlay"></span>
+
+                            <span class="menu-category-content">
+
+                                <span class="menu-category-title">
+                                    THE STACKS
+                                </span>
+
+                                <span class="menu-category-text">
+                                    Signature burgers stacked right and made to order.
+                                </span>
+
+                            </span>
+
+                        </button>
+
+                    </div>
+
+
+                    <!-- THE SIPS -->
+
+                    <div class="col-12 col-md-6 col-lg-4">
+
+                        <button type="button" class="menu-category-card" data-menu-target="sips-menu"
+                            aria-controls="sips-menu" aria-expanded="false">
+                            <span class="menu-category-image"><img src="./css/images/the_sips.jpg" class="img-fluid"></span>
+                            <span class="menu-category-overlay"></span>
+
+                            <span class="menu-category-content">
+
+                                <span class="menu-category-title">
+                                    THE SIPS
+                                </span>
+
+                                <span class="menu-category-text">
+                                    Cold drinks and milkshakes for every craving.
+                                </span>
+
+                            </span>
+
+                        </button>
+
+                    </div>
+
+
+                    <!-- THE CRISPS -->
+
+                    <div class="col-12 col-md-6 col-lg-4">
+
+                        <button type="button" class="menu-category-card" data-menu-target="crisps-menu"
+                            aria-controls="crisps-menu" aria-expanded="false">
+                            <span class="menu-category-image"><img src="./css/images/the_crisps.jpg" class="img-fluid"></span>
+                            <span class="menu-category-overlay"></span>
+
+                            <span class="menu-category-content">
+
+                                <span class="menu-category-title">
+                                    THE CRISPS
+                                </span>
+
+                                <span class="menu-category-text">
+                                    Golden fries and crispy sides made for sharing.
+                                </span>
+
+                            </span>
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- DYNAMIC MENU CONTENT -->
+
+        <section class="selected-menu-section py-5">
+
+            <div class="container">
+
+
+                <!-- STACKS MENU -->
+
+                <div id="stacks-menu" class="menu-panel active">
+
+                    <div class="menu-panel-heading">
+
+                        <p class="menu-panel-label">
+                            BURGERS
+                        </p>
+
+                        <h2 class="menu-panel-title">
+                            THE STACKS
+                        </h2>
+
+                    </div>
+
+                    <div class="row g-4">
+
+                        <div class="col-12 col-md-6 col-lg-4">
+
+                            <article class="product-card">
+
+                                <span class="product-image"><img src="./css/images/Windsor Classic.jpg" class="img-fluid"></span>
+
+                                <div class="product-content">
+
+                                    <div class="product-header">
+
+                                        <h3 class="product-name">
+                                            Windsor Classic
+                                        </h3>
+
+                                        <span class="product-price">
+                                            ₱000
+                                        </span>
+
+                                    </div>
+
+                                    <p class="product-description">
+                                        Beef patty, American cheese, fresh vegetables,
+                                        and Block Seven's house sauce.
+                                    </p>
+
+                                    <a href="https://m.me/yourpage" class="product-order-button" target="_blank"
+                                        rel="noopener noreferrer">
+                                        <i class="bi bi-messenger"></i>
+                                        Order Now
+                                    </a>
+
+                                </div>
+
+                            </article>
+
+                        </div>
+
+
+                        <div class="col-12 col-md-6 col-lg-4">
+
+                            <article class="product-card">
+
+                                <span class="product-image"><img src="./css/images/SSS.jpg" class="img-fluid"></span>
+
+                                <div class="product-content">
+
+                                    <div class="product-header">
+
+                                        <h3 class="product-name">
+                                            Smoking Sapphire Sunset
+                                        </h3>
+
+                                        <span class="product-price">
+                                            ₱000
+                                        </span>
+
+                                    </div>
+
+                                    <p class="product-description">
+                                        Two beef patties, double American cheese,
+                                        caramelized onions, pickles, and house sauce.
+                                    </p>
+
+                                    <a href="https://m.me/yourpage" class="product-order-button" target="_blank"
+                                        rel="noopener noreferrer">
+                                        <i class="bi bi-messenger"></i>
+                                        Order Now
+                                    </a>
+
+                                </div>
+
+                            </article>
+
+                        </div>
+
+
+                        <div class="col-12 col-md-6 col-lg-4">
+
+                            <article class="product-card">
+
+                                <span class="product-image"><img src="./css/images/B7D with tag.jpg" class="img-fluid"></span>
+
+                                <div class="product-content">
+
+                                    <div class="product-header">
+
+                                        <h3 class="product-name">
+                                            B7D
+                                        </h3>
+
+                                        <span class="product-price">
+                                            ₱000
+                                        </span>
+
+                                    </div>
+
+                                    <p class="product-description">
+                                        Smoked beef, cheddar cheese, caramelized onions,
+                                        pickles, and signature smoky sauce.
+                                    </p>
+
+                                    <a href="https://m.me/yourpage" class="product-order-button" target="_blank"
+                                        rel="noopener noreferrer">
+                                        <i class="bi bi-messenger"></i>
+                                        Order Now
+                                    </a>
+
+                                </div>
+
+                            </article>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- SIPS MENU -->
+
+                <div id="sips-menu" class="menu-panel">
+
+                    <div class="menu-panel-heading">
+
+                        <p class="menu-panel-label">
+                            DRINKS
+                        </p>
+
+                        <h2 class="menu-panel-title">
+                            THE SIPS
+                        </h2>
+
+                    </div>
+
+                    <div class="row g-4">
+
+                        <div class="col-12 col-md-6 col-lg-4">
+
+                            <article class="product-card">
+
+                                ./css/images/vanilla-shake.jpg
+
+                                <div class="product-content">
+
+                                    <div class="product-header">
+
+                                        <h3 class="product-name">
+                                            Vanilla Shake
+                                        </h3>
+
+                                        <span class="product-price">
+                                            ₱000
+                                        </span>
+
+                                    </div>
+
+                                    <p class="product-description">
+                                        Thick and creamy vanilla milkshake served cold.
+                                    </p>
+
+                                    <a href="https://m.me/yourpage" class="product-order-button" target="_blank"
+                                        rel="noopener noreferrer">
+                                        <i class="bi bi-messenger"></i>
+                                        Order Now
+                                    </a>
+
+                                </div>
+
+                            </article>
+
+                        </div>
+
+
+                        <div class="col-12 col-md-6 col-lg-4">
+
+                            <article class="product-card">
+
+                                ./css/images/chocolate-shake.jpg
+
+                                <div class="product-content">
+
+                                    <div class="product-header">
+
+                                        <h3 class="product-name">
+                                            Chocolate Shake
+                                        </h3>
+
+                                        <span class="product-price">
+                                            ₱000
+                                        </span>
+
+                                    </div>
+
+                                    <p class="product-description">
+                                        Rich chocolate milkshake with a smooth finish.
+                                    </p>
+
+                                    <a href="https://m.me/yourpage" class="product-order-button" target="_blank"
+                                        rel="noopener noreferrer">
+                                        <i class="bi bi-messenger"></i>
+                                        Order Now
+                                    </a>
+
+                                </div>
+
+                            </article>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CRISPS MENU -->
+
+                <div id="crisps-menu" class="menu-panel">
+
+                    <div class="menu-panel-heading">
+
+                        <p class="menu-panel-label">
+                            SIDES
+                        </p>
+
+                        <h2 class="menu-panel-title">
+                            THE CRISPS
+                        </h2>
+
+                    </div>
+
+                    <div class="row g-4">
+
+                        <div class="col-12 col-md-6 col-lg-4">
+
+                            <article class="product-card">
+
+                                ./css/images/classic-fries.jpg
+
+                                <div class="product-content">
+
+                                    <div class="product-header">
+
+                                        <h3 class="product-name">
+                                            Classic Fries
+                                        </h3>
+
+                                        <span class="product-price">
+                                            ₱000
+                                        </span>
+
+                                    </div>
+
+                                    <p class="product-description">
+                                        Golden and crispy fries seasoned just right.
+                                    </p>
+
+                                    <a href="https://m.me/yourpage" class="product-order-button" target="_blank"
+                                        rel="noopener noreferrer">
+                                        <i class="bi bi-messenger"></i>
+                                        Order Now
+                                    </a>
+
+                                </div>
+
+                            </article>
+
+                        </div>
+
+
+                        <div class="col-12 col-md-6 col-lg-4">
+
+                            <article class="product-card">
+
+                                ./css/images/loaded-fries.jpg
+
+                                <div class="product-content">
+
+                                    <div class="product-header">
+
+                                        <h3 class="product-name">
+                                            Loaded Fries
+                                        </h3>
+
+                                        <span class="product-price">
+                                            ₱000
+                                        </span>
+
+                                    </div>
+
+                                    <p class="product-description">
+                                        Crispy fries topped with cheese and house sauce.
+                                    </p>
+
+                                    <a href="https://m.me/yourpage" class="product-order-button" target="_blank"
+                                        rel="noopener noreferrer">
+                                        <i class="bi bi-messenger"></i>
+                                        Order Now
+                                    </a>
+
+                                </div>
+
+                            </article>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer component -->
+    <div id="footer-container"></div>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Component loader -->
+    <script src="js/components.js"></script>
+    <script src="js/menu.js"></script>
+
+</body>
+
+</html>
