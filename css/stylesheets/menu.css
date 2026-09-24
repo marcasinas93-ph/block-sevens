@@ -25,7 +25,7 @@
     background-image:
         linear-gradient(rgba(24, 12, 5, 0.2),
             rgba(24, 12, 5, 0.2)),
-        url("./css/images/mockup-photos-5nUNdLueQio-unsplash.jpg");
+        url("../images/mockup-photos-5nUNdLueQio-unsplash.jpg");
     background-size: cover;
     background-position: center;
     padding-top: 180px;
