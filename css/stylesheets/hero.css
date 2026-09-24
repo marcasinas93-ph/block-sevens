@@ -1,0 +1,197 @@
+@import url(/css/fonts/bebas-neue-cyrillic/bebas-neue-cyrillic.css);
+@import url(/css/fonts/mistrully/mistrully.css);
+@import url('/css/fonts/avenir-next/avenir-next.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/fontsource-cooper-hewitt/5.3.0/index.css');
+
+/* Hero Section */
+.hero-section {
+    background-image: url("/css/images/Gemini_Generated_Image_najgs6najgs6najg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Laptop */
+@media (max-width: 1200px) {
+    .hero-section {
+        background-position: 70% center;
+    }
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+    * .hero-section {
+        backgrou*d-position: 75% center;
+    }
+}
+
+/* Large Phone */
+@media (max-width: 768px) {
+    .hero-section {
+        background-position: 80% center;
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    * .hero-section {
+        background-position: 85% center;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 375px) {
+    .hero-section {
+        background-position: 90% center;
+    }
+}
+
+/* Hero Content */
+.hero-content {
+    padding-left: 5rem;
+    max-width: 900px;
+    width: 100%;
+}
+
+/* For Tablet */
+@media (max-width: 991.98px) {
+    .hero-content {
+        padding-left: 2rem;
+        max-width: 100%;
+    }
+}
+
+/* For Mobile */
+@media (max-width: 767.98px) {
+    .hero-content {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        text-align: left;
+    }
+}
+
+/* Hero Taglines */
+.hero-title {
+    font-family: "Bebas Neue Cyrillic";
+    color: #e9e0f8;
+    font-size: clamp(6rem, 8vw, 10rem);
+    line-height: .85;
+    max-width: 800px;
+    text-shadow:
+        0 0 10px rgba(255, 255, 255, .10),
+        0 4px 0 rgba(0, 0, 0, .25),
+        0 8px 15px rgba(0, 0, 0, .45);
+}
+
+.hero-script {
+    font-family: 'Mistrully', cursive;
+    font-size: clamp(2rem, 4vw, 3.5rem);
+    letter-spacing: 3px;
+    color: #fff3da;
+    text-shadow:
+        -2px -2px 1px rgba(0, 0, 0, .25),
+        2px 2px 1px rgba(255, 255, 255, .08),
+        0 0 10px rgba(255, 243, 218, .15);
+}
+
+
+.hero-signature {
+    color: #037636;
+    font-family: 'Avenir Next';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.hero-signature span {
+    font-family: 'Avenir Next';
+    color: #fff3da;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #037636, 0 0 0.5em #037636, 0 0 0.1em #037636, 0 10px 3px #000;
+    animation: blink linear infinite 2s;
+}
+
+.hero-signature b span {
+    animation: blink linear infinite 2s;
+}
+
+.hero-signature b span:nth-of-type(2) {
+    animation: blink linear infinite 3s;
+}
+
+/* Hero Buttons */
+.hero-buttons {
+    display: flex;
+    gap: 3rem;
+    margin-top: 1.5rem;
+}
+
+.hero-btn {
+    padding: 14px 28px;
+    border: 2px solid #ffffff;
+    background: transparent;
+    color: blanchedalmond;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Avenir Next';
+    letter-spacing: 1px;
+    transition: all .3s ease;
+    text-decoration: none;
+}
+
+.hero-btn-explore:hover {
+    background: #037636;
+    border-color: #037636;
+    color: white;
+    text-decoration: none;
+}
+
+.hero-btn-menu:hover {
+    background: #d97706;
+    border-color: #d97706;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Flicker Animation */
+@keyframes blink {
+    78% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+
+    79% {
+        color: #ffffff;
+    }
+
+    80% {
+
+        text-shadow: none;
+    }
+
+    81% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+
+    82% {
+        color: #ffffff;
+        text-shadow: none;
+    }
+
+    83% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+
+    92% {
+        color: #ffffff;
+        text-shadow: none;
+    }
+
+    92.5% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+}

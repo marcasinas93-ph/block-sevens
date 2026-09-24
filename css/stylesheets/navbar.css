@@ -1,0 +1,100 @@
+/* Import Cooper Hewitt from CDN */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/fontsource-cooper-hewitt/5.3.0/index.css');
+
+/* Apply the font to your elements */
+.navbar-logo {
+    width: clamp(120px, 18vw, 320px);
+    height: auto;
+    /* margin-bottom: -100PX; */
+}
+
+.navbar-font {
+    font-family: 'Cooper Hewitt', sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: blanchedalmond;
+}
+
+.navbar-nav {
+    gap: 1.5rem;
+}
+
+.nav-link {
+    transition: all .3s ease;
+}
+
+.nav-link:hover {
+    color: #2ea56f !important;
+}
+
+.navbar-icons {
+    gap: 1.25rem;
+}
+
+.navbar-icons a {
+    font-size: 1.4rem;
+    color: blanchedalmond;
+}
+
+.navbar-icons a:hover {
+    color: #2ea56f !important;
+}
+
+/* Collapsible Menu Configurations */
+@media (max-width: 1199.98px) {
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        right: 20px;
+        width: 250px;
+        background: rgba(0, 0, 0, .92);
+        padding: 1.2rem;
+        border-radius: 15px;
+        backdrop-filter: blur(10px);
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .navbar-icons {
+        justify-content: center;
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .navbar-nav .nav-item {
+        margin-bottom: .75rem;
+    }
+}
+
+.navbar-btn {
+    padding: 14px 28px;
+    border: 2px solid #ffffff;
+    background: transparent;
+    color: blanchedalmond;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Avenir Next';
+    letter-spacing: 1px;
+    transition: all .3s ease;
+    text-decoration: none;
+}
+
+.navbar-btn a{
+    text-decoration: none;
+}
+
+.navbar-btn:hover {
+    background: #037636;
+    border-color: #037636;
+    color: white;
+    text-decoration: none;
+}
