@@ -1,6 +1,6 @@
-@import url(/css/fonts/bebas-neue-cyrillic/bebas-neue-cyrillic.css);
-@import url(/css/fonts/mistrully/mistrully.css);
-@import url('/css/fonts/avenir-next/avenir-next.css');
+@import url(./css/fonts/bebas-neue-cyrillic/bebas-neue-cyrillic.css);
+@import url(./css/fonts/mistrully/mistrully.css);
+@import url('./css/fonts/avenir-next/avenir-next.css');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/fontsource-cooper-hewitt/5.3.0/index.css');
 
 /* Hero Section */
