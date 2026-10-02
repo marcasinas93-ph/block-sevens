@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Cooper Hewitt";
-    src: url("./OTF/CooperHewitt-MediumItalic") format("opentype");
+    src: url("./OTF/CooperHewitt-MediumItalic.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
