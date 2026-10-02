@@ -1,5 +1,5 @@
 /* Import Cooper Hewitt from CDN */
-@import url('https://cdnjs.cloudflare.com/ajax/libs/fontsource-cooper-hewitt/5.3.0/index.css');
+@import url('./css/fonts/cooper-hewitt/OTF/CooperHewitt-Medium.otf');
 
 /* Apply the font to your elements */
 .navbar-logo {
