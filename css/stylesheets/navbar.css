@@ -1,5 +1,5 @@
 /* Import Cooper Hewitt from CDN */
-@import url('./css/fonts/cooper-hewitt/OTF/CooperHewitt-Medium.otf');
+@import url('./css/fonts/cooper-hewitt/CooperHewitt.css');
 
 /* Apply the font to your elements */
 .navbar-logo {
