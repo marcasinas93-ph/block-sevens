@@ -1,6 +1,20 @@
 @font-face {
-    font-family: "Cooper Hewitt";
-    src: url("./OTF/CooperHewitt-MediumItalic.otf") format("opentype");
+    font-family: "Cooper Hewitt Book";
+    src: url("./OTF/CooperHewitt-Medium.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cooper Hewitt Medium";
+    src: url("./OTF/CooperHewitt-Medium.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cooper Hewitt Bold,";
+    src: url("./OTF/CooperHewitt-Bold.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
