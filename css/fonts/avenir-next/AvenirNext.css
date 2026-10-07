@@ -1,6 +1,5 @@
 @font-face {
     font-family: "Avenir Next";
     src: url("./css/fonts/avenir-next/OTF/Avenir-Next-Heavy.otf");
-    font-weight: normal;
-    font-style: normal;
+    font-weight: 800;
 }
